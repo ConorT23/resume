@@ -1,0 +1,19 @@
+﻿<Window x:Class="milestone3app.tipWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:milestone3app"
+        mc:Ignorable="d"
+        Title="Tips" Height="700" Width="900">
+    <Grid>
+        <TextBox x:Name="tipText" HorizontalAlignment="Left" Margin="10,10,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="737" Height="57"/>
+        <Button x:Name="addTipButton" Content="Add Tip" HorizontalAlignment="Left" Margin="763,10,0,0" VerticalAlignment="Top" Height="57" Width="97" Click="addTipButton_Click"/>
+        <DataGrid x:Name="businessTips" Margin="10,93,153,199"/>
+        <Button x:Name="likeTipButton" Content="Like" HorizontalAlignment="Left" Margin="763,93,0,0" VerticalAlignment="Top" Height="57" Width="97" Click="likeTipButton_Click"/>
+        <Label x:Name="businessTipsLabel" Content="Business Tips" HorizontalAlignment="Left" Margin="10,67,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="friendTipLabel" Content="Friends who reviewed this business" HorizontalAlignment="Left" Margin="10,490,0,0" VerticalAlignment="Top"/>
+        <DataGrid x:Name="friendReviews"  Margin="10,521,153,23"/>
+
+    </Grid>
+</Window>

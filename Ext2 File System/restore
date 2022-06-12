@@ -1,0 +1,11 @@
+rm disk2
+
+rm mydisk
+
+rm disk3
+
+cp ../disk2 ./
+
+cp ../mydisk ./
+
+cp ../disk3 ./
