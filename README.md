@@ -1,1 +1,1 @@
-## Hello and welcome to my repo. This repo contains some of the projects I have completed
+## Hello and welcome to my repo. This repo contains some of the projects I have completed. Please note that the code for the TA Application has not been uploaded as my professor has asked us not to upload to uphold academic integrity for future students.
